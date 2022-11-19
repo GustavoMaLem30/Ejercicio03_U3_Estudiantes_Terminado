@@ -149,5 +149,5 @@
             </ion-row>
     </form>
   </ion-grid>
-  <ion-button expand="block" (click)="newStudent()" *ngIf="myForm.validationMessages">Agregar Estudiante</ion-button>
+  <ion-button expand="block" (click)="newStudent()" *ngIf="myForm.valid">Agregar Estudiante</ion-button>
 </ion-content>
